@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        footer {
+            height: 300px;
+            width: 100%;
+            background-color: tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+    </style>
+
+    <!--external css-->
+    <link rel="stylesheet" href="">
+
+    <!--foreign links-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +29,7 @@
 </head>
 <body style="margin: 0; padding: 0;">
     
+    <!--nav bar created and inline styling added-->
     <nav style="width: 100%; height: 100px; background-color: pink; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <p class="logo" style="font-size: 35px; font-family:'Dancing Script', cursive;">GW</p>
@@ -21,6 +40,7 @@
             <a href="" style="text-decoration: none;">About</a>
             <a href="" style="text-decoration: none;">Services</a>
             <a href="" style="text-decoration: none;">Contact</a>
+            <a href="#footer" style="text-decoration: none;">Footer</a>
         </div>
 
         <div style="display: flex; justify-content: space-between; width: 200px; font-size: 20px;">
@@ -30,5 +50,53 @@
             <i class="fa-brands fa-facebook"></i>
         </div>
     </nav>
+
+    <main style="display: flex; width: 100%; height: 100vh">
+        <aside style="width: 25%; background-color: brown; height: 100vh;">
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <li>More</li>
+                <li>Business</li>
+                <li>Web3</li>
+                <li>Web2</li>
+                <li>Smart Contract</li>
+                <li>Crypto</li>
+                <li>Full Stack</li>
+            </ul>
+        </aside>
+
+        <section style="width: 50%; background-color: aqua; height: 100vh;">
+            <h1 style="text-align: center;">This is the Website Body</h1>
+        </section>
+
+        <aside style="width: 25%; background-color: crimson; height: 100vh">
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Contact</li>
+                <li>More</li>
+                <li>Business</li>
+                <li>Web#</li>
+                <li>Web2</li>
+                <li>Smart Contract</li>
+                <li>Crypto</li>
+                <li>Full Stack</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer id="footer">
+        <h1>This is a footer</h1>
+        <div style="display: flex; justify-content: space-between; width: 200px; font-size: 20px;">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+
+        <p> This website was created by me &copy; 2023</p>
+    </footer>
 </body>
 </html>
